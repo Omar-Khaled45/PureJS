@@ -159,8 +159,8 @@ function randomizeImg() {
       // Get Random Number
       let rand = Math.floor(Math.random() * imgsArr.length);
 
-      landing.style.backgroundImage = `url(../images/${imgsArr[rand]})`;
-    }, 1000);
+      landing.style.backgroundImage = `url(images/${imgsArr[rand]})`;
+    }, 7000);
   }
 }
 
